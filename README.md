@@ -29,3 +29,25 @@ CERRAR ETIQUETA 1
 * Elemento desordenado 1
 * Elemento desordenado 2
 * Elemento desrodenado 3
+
+Para hacer un parrafo clicamos dos veces al intro 
+
+hola que tal: Esto es un parrafo 
+
+
+Yo bien y gracias por el parrafo
+
+Esto es un ejemplo de como hacer parrafo 
+
+```html
+<p>Esto es un parrafo</p>
+```
+
+Para hacer un link utilizamos [] y los ()
+
+[link](https://elpais.com/ Periodico oficial del Pais)
+
+**Para insertar una imagen tedremos que utilizar estas etiquetas: ![]()**
+
+![alt tex](./Imagen1.jpg "Imagen Cristiano Ronaldo")
+
