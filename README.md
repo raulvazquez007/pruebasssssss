@@ -49,5 +49,5 @@ Para hacer un link utilizamos [] y los ()
 
 **Para insertar una imagen tedremos que utilizar estas etiquetas: ![]()**
 
-![alt tex](./Imagen1.jpg "Imagen Cristiano Ronaldo")
+![alt tex](./Imagen1.jpg "Imagen bandera")
 
