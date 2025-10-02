@@ -54,7 +54,7 @@ Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir
 
 [link](https://elpais.com/ Periodico oficial del Pais)
 
-**Para insertar una imagen tedremos que utilizar estas etiquetas: ![]()**
+**Para insertar una imagen tedremos que utilizar estas etiquetas:!  []  ()**
 
 ![alt tex](./Imagenn1.jpg "Imagen bandera")
 
