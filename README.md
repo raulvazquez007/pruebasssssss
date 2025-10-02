@@ -30,7 +30,7 @@ CERRAR ETIQUETA 1
 * Elemento desordenado 2
 * Elemento desrodenado 3
 
-Para hacer un parrafo clicamos dos veces al intro 
+**Para hacer un parrafo clicamos dos veces al intro**
 
 hola que tal: Esto es un parrafo 
 
@@ -43,7 +43,7 @@ Esto es un ejemplo de como hacer parrafo
 <p>Esto es un parrafo</p>
 ```
 
-Para hacer un link utilizamos [] y los ()
+**Para hacer un link utilizamos [] y los ()**
 
 [link](https://elpais.com/ Periodico oficial del Pais)
 
@@ -51,3 +51,10 @@ Para hacer un link utilizamos [] y los ()
 
 ![alt tex](./Imagenn1.jpg "Imagen bandera")
 
+
+**Para hacer una tabla  utilizamos |**
+
+| Jugador | Equipo | Nombre |
+| 32 | Lakers | Magic Johnson |
+| 33 | Celtics| Boston Celtics |
+| 23 | Bulls | Michael Jordan |
