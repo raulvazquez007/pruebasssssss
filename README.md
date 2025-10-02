@@ -52,7 +52,7 @@ Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir
 
 **Para hacer un link utilizamos [] y los ()**
 
-[link](https://elpais.com/ Periodico oficial del Pais)
+[Periodico oficial del Pais](https://elpais.com/ "Texto adicional")
 
 **Para insertar una imagen tedremos que utilizar estas etiquetas:!  []  ()**
 
