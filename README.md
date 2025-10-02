@@ -19,11 +19,11 @@ __*ABRIR ETIQUTA 1*__
 CERRAR ETIQUETA 1
 
 1. Elemento 1
-* Elemento desordenado 1,2
-* Elemento desordenado 1,2
+    * Elemento desordenado 1,2
+    * Elemento desordenado 1,2
 2. Elemento 2
-* Elemento desordenado 2,1
-* Elemento desordenado 2,2
+    * Elemento desordenado 2,1
+    * Elemento desordenado 2,2
 3. Elemento 3
 
 * Elemento desordenado 1
