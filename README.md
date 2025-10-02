@@ -44,7 +44,7 @@ hola que tal: Esto es un parrafo
 
 Yo bien y gracias por el parrafo
 
-Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir el parrafo</p> y ```) para cerrars  
+Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir el parrafo</p> y ``` para cerrars)
 
 ```html
 <p>Esto es un parrafo</p>
