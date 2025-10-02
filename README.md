@@ -55,6 +55,7 @@ Esto es un ejemplo de como hacer parrafo
 **Para hacer una tabla  utilizamos |**
 
 | Jugador | Equipo | Nombre |
+|---------|---------|--------------|
 | 32 | Lakers | Magic Johnson |
 | 33 | Celtics| Boston Celtics |
 | 23 | Bulls | Michael Jordan |
