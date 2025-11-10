@@ -1,11 +1,16 @@
-# pruebasssssss
-Es mi primera toma de contacto con GitHub.
-Soy Raul Vazquez
+# AE1b Mi documentación (apuntes) [REVISIÓN 1] Raul Vazquez
+
+## Etiquetas basica MarkDown
+**Encabezados:** Llevan ya asociado un estilo por defecto cada un y sirven para iniciar secciones de docuemtos.
+Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemos ## seria el segundo mas grandre y asi hasta llegar a seies hastags.
 # Hola
 ## hola
 ### hola
 #### hola
 
+·**Estilos de letra**
+
+Negritas:
 Esto esta en __negrita__ 
 Esto esta en **negrita** tambien
 
