@@ -2,6 +2,7 @@
 
 ## Etiquetas basica MarkDown
 **Encabezados:** Llevan ya asociado un estilo por defecto cada un y sirven para iniciar secciones de docuemtos.
+
 Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemos ## seria el segundo mas grandre y asi hasta llegar a seies hastags.
 # Hola
 ## hola
