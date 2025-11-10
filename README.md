@@ -27,7 +27,7 @@ Esto esta en *cursiva*
 
 ### Enlaces
 
-Para poner un enlace tenemos que utilizar esta estructura [](), Dentro de los corchetes escribiremos el nombre del sitio y dentro de los parentesis pondremos el enlace y si quermeos escribir un texto adicional pondremos entre comillas el texto "Aqui dentro el texto".
+Para poner un enlace tenemos que utilizar esta estructura [] (), Dentro de los corchetes escribiremos el nombre del sitio y dentro de los parentesis pondremos el enlace y si quermeos escribir un texto adicional pondremos entre comillas el texto "Aqui dentro el texto".
 
 Ej: 
 [Periodico oficial del Pais](https://elpais.com/ "Texto adicional")
