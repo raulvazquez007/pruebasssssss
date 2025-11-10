@@ -1,7 +1,8 @@
 # AE1b Mi documentación (apuntes) [REVISIÓN 1] Raul Vazquez
 
 ## Etiquetas basica MarkDown
-**Encabezados:** Llevan ya asociado un estilo por defecto cada un y sirven para iniciar secciones de docuemtos.
+### **Encabezados:** 
+Llevan ya asociado un estilo por defecto cada un y sirven para iniciar secciones de docuemtos.
 
 Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemos ## seria el segundo mas grandre y asi hasta llegar a seies hastags.
 # Hola
@@ -9,23 +10,47 @@ Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemo
 ### hola
 #### hola
 
-·**Estilos de letra**
+### **Estilos de letra**
 
-Negritas: Se puede poner el tenxto en negrita utilizando 2 barra bajas delante y dos detras de la palabra o poniedo dos asteriscos delante y y dos detras "__ algo __ o ** algo **" sin seperacion!!
+·**Negritas:** 
+Se puede poner el tenxto en negrita utilizando 2 barra bajas delante y dos detras de la palabra o poniedo dos asteriscos delante y y dos detras "__ algo __ o ** algo **" sin seperacion!!
 
 Ej:
 Esto esta en __negrita__ 
 Esto esta en **negrita** tambien
 
-Cursiva: Se puede poner el tenxto en cursiva utilizando 1 barra baja delante y 1 detras de la palabra o poniedo 1 asteriscos delante y 1 detras "_ algo _ o * algo *" sin seperacion!!
+·_Cursiva_: Se puede poner el tenxto en cursiva utilizando 1 barra baja delante y 1 detras de la palabra o poniedo 1 asteriscos delante y 1 detras "_ algo _ o * algo *" sin seperacion!!
 
 Ej:
 Esto esta en _cursiva_
 Esto esta en *cursiva*
 
-·Enlaces
+### Enlaces
 
-Para poner un enlace tenemos que utilizar esta estructura [](), Dentro de los corchetes escribiremos el nombre del sitio y dentro de los parentesis pondremos el enlace y si quermeos escribir un texto adicional pondremos "Aqui dentro el texto"
+Para poner un enlace tenemos que utilizar esta estructura [](), Dentro de los corchetes escribiremos el nombre del sitio y dentro de los parentesis pondremos el enlace y si quermeos escribir un texto adicional pondremos entre comillas el texto "Aqui dentro el texto".
+
+Ej: 
+[Periodico oficial del Pais](https://elpais.com/ "Texto adicional")
+
+### Imagenes
+
+Para poner una imagen usaremos la estructura ![](). Primero escribiremos ! junto a los corchetes es decir asi ![] dentro del corchete escribirmeos alt tex, despues dentro de los parentesis pondremos la ruta donde esta la imagen  y si quermeos escribir un texto adicional pondremos entre comillas el texto "Aqui dentro el texto".
+
+Ej:![alt tex](./Imagenn1.jpg "Imagen bandera")
+
+### Tablas
+
+Para hacer tablas utilizaremos el elemento | que son para los encabezados de las columnas.
+
+| *Jugador* | Equipo | Nombre |
+|:---------|:-------------:|:--------------|
+| 32 | Lakers | Magic Johnson |
+| 33 | Celtics| Boston Celtics |
+| 23 | Bulls | Michael Jordan |
+
+Los dos puntos se usasn para alinear las columnas (izquierda/centro/derecha).
+
+Se han de poner al menos tres guiones para separar cada encabezado.
 
 
 __*ABRIR ETIQUTA 1*__
@@ -65,14 +90,6 @@ Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir
 ```html
 <p>Esto es un parrafo</p>
 ```
-
-**Para hacer un link utilizamos [] y los ()**
-
-[Periodico oficial del Pais](https://elpais.com/ "Texto adicional")
-
-**Para insertar una imagen tedremos que utilizar estas etiquetas:!  []  ()**
-
-![alt tex](./Imagenn1.jpg "Imagen bandera")
 
 
 **Para hacer una tabla  utilizamos |**
