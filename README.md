@@ -52,6 +52,9 @@ Los dos puntos se usasn para alinear las columnas (izquierda/centro/derecha).
 
 Se han de poner al menos tres guiones para separar cada encabezado.
 
+### Notas al pie de pagina:
+
+Para poner un texto con pie de pagina utilizaremos los corchetes [] y dentro de los corchetes ^1.
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
