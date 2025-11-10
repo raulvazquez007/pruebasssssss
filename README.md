@@ -23,6 +23,11 @@ Ej:
 Esto esta en _cursiva_
 Esto esta en *cursiva*
 
+·Enlaces
+
+Para poner un enlace tenemos que utilizar esta estructura [](), Dentro de los corchetes escribiremos el nombre del sitio y dentro de los parentesis pondremos el enlace y si quermeos escribir un texto adicional pondremos "Aqui dentro el texto"
+
+
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
         contenido
