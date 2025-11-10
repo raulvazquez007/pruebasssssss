@@ -60,7 +60,7 @@ Ej: Texto con enlace a nota de pie de pagina [^1]bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
-        contenido[^1]
+        contenido [^1]
     CERRAR ETIQUETA 2
 CERRAR ETIQUETA 1
 
