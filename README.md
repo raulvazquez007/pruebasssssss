@@ -12,6 +12,7 @@ Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemo
 ·**Estilos de letra**
 
 Negritas: Se puede poner el tenxto en negrita utilizando 2 barra bajas delante y dos detras de la palabra o poniedo dos asteriscos delante y y dos detras "__ algo __ o ** algo **" sin seperacion!!
+
 Ej:
 Esto esta en __negrita__ 
 Esto esta en **negrita** tambien
