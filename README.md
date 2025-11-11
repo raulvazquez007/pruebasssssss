@@ -102,7 +102,7 @@ Los elementos pueden también tener atributos.
 Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento.
 En el siguiente ejemplo:
 
-<p class="editor-note">Mi gato es muy gruñón</p>
+&lt;p class="editor-note">Mi gato es muy gruñón&gt;/p
 
 · class es el **nombre del atributo**
 
