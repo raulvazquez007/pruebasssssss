@@ -132,15 +132,23 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (</img>) ni cont
 
 <!DOCTYPE html>
 &lt;html&gt;
+
 &lt;head&gt;
+
     &lt;meta charset="utf-8"&gt;
+
     &lt;title&gt;Mi página de prueba&lt;/title&gt;
+
     &lt;link rel="icon" href="favicon.png"&gt;
+
 &lt;/head&gt;
 
 &lt;body&gt;
+
     &lt;img src="images/firefox-icon.png" alt="Mi imagen de prueba"&gt;
+
 &lt;/body&gt;
+
 &lt;/html&gt;
 
 
