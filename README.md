@@ -130,7 +130,7 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (</img>) ni cont
 
 · El **head** contiene metadatos y enlaces a hojas de estilo y scripts, mientras que el **body** contiene el contenido principal de la página web.
 
-&lt;!DOCTYPE html&lt;
+&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
 
@@ -146,18 +146,18 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (</img>) ni cont
 
 &lt;body&gt;
 
-    &lt;img src="images/firefox-icon.png" alt="Mi imagen de prueba"&gt;
+&lt;img src="images/firefox-icon.png" alt="Mi imagen de prueba"&gt;
 
 &lt;/body&gt;
 
 &lt;/html&gt;
 
 
-· **<!DOCTYPE html>** indica el tipo de documento.
+· **&lt;!DOCTYPE html&gt;** indica el tipo de documento.
 
-· **<html></html>** el elemento <html>. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).
+· **&lt;html&gt;&lt;/html&gt;** el elemento &lt;html&gt;. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).
 
-· **<head></head>** el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página.
+· **&lt;head&gt; &lt;/head&gt;** el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página.
 
 
 __*ABRIR ETIQUTA 1*__
