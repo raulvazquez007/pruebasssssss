@@ -70,7 +70,7 @@ Ej: Texto con enlace a nota de pie de pagina [^1]
 
 · Los elementos HTML son los bloques de construcción de las páginas HTML.
 
-· Cada elemento HTML está delimitado por etiquetas, como <body>, <head>, <p>, <h1>, etc.
+· Cada elemento HTML está delimitado por etiquetas, como (<body>, <head>, <p>, <h1>), etc.
 
 Las siglas de HTML corresponden con **“HyperText Markup Language”**, que tiene el siguiente significado:
 
