@@ -130,6 +130,7 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (</img>) ni cont
 
 · El **head** contiene metadatos y enlaces a hojas de estilo y scripts, mientras que el **body** contiene el contenido principal de la página web.
 
+<!-- <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -147,7 +148,7 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (</img>) ni cont
 · **<html></html>** el elemento <html>. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).
 
 · **<head></head>** el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página.
-
+<!-- <!DOCTYPE html-->
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
