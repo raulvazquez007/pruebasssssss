@@ -130,16 +130,17 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (</img>) ni cont
 
 · El **head** contiene metadatos y enlaces a hojas de estilo y scripts, mientras que el **body** contiene el contenido principal de la página web.
 
-<!DOCTYPE html>
+&lt;!DOCTYPE html&lt;
+
 &lt;html&gt;
 
 &lt;head&gt;
 
-    &lt;meta charset="utf-8"&gt;
+&lt;meta charset="utf-8"&gt;
 
-    &lt;title&gt;Mi página de prueba&lt;/title&gt;
+&lt;title&gt;Mi página de prueba&lt;/title&gt;
 
-    &lt;link rel="icon" href="favicon.png"&gt;
+&lt;link rel="icon" href="favicon.png"&gt;
 
 &lt;/head&gt;
 
