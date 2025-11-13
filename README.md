@@ -319,7 +319,7 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
       &lt;body&gt;
 
-      <!-- Cabecera -->
+       <!-- Cabecera -->
 
        <!-- Menú de navegación -->
 
