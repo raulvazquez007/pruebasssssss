@@ -184,8 +184,11 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
   &lt;style&gt;
 
    body {
+
     font-family: Arial, sans-serif;
+
     background-color: #f4f4f9;
+
    }
 
   &lt;/style&gt;
