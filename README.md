@@ -208,9 +208,9 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
     Un documento HTML define la estructura básica de una página web. 
 Contiene dos secciones principales:
 
-    &lt;head&gt;: incluye metadatos, información adicional y enlaces a archivos externos 
+    - <head>: incluye metadatos, información adicional y enlaces a archivos externos 
       (como CSS o scripts).
-    - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
+    - <body>: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
 
 ## Ejemplo básico:
 
