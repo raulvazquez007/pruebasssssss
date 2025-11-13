@@ -207,10 +207,10 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 
 Un documento HTML define la estructura básica de una página web. Contiene dos secciones principales:
 
-    - &lt;head&gt;: incluye metadatos, información adicional y enlaces a archivos externos 
+   - &lt;head&gt;: incluye metadatos, información adicional y enlaces a archivos externos 
       (como CSS o scripts).
 
-    - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
+   - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
 
 ## Ejemplo básico:
 
@@ -240,15 +240,15 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
 &lt;meta name="viewport" content="width=device-width"&gt; 
 
-        -Permite que el sitio sea adaptable a diferentes dispositivos.
+    -Permite que el sitio sea adaptable a diferentes dispositivos.
     
 &lt;meta name="description" content="Descripción del sitio"&gt; 
 
-        -Utilizada por los motores de búsqueda.
+    -Utilizada por los motores de búsqueda.
     
 &lt;meta name="robots" content="index, follow"&gt; 
 
-        -Indica a los buscadores si deben indexar la página.
+    -Indica a los buscadores si deben indexar la página.
 
 
 2. ELEMENTOS DE BLOQUE Y DE LÍNEA
