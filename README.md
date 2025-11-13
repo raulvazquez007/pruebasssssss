@@ -204,275 +204,279 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 &lt;/html&gt;
 
 1. ### ESTRUCTURA BÁSICA DE UN FICHERO HTML
-------------------------------------------
-    Un documento HTML define la estructura básica de una página web. 
-Contiene dos secciones principales:
 
-    - <head>: incluye metadatos, información adicional y enlaces a archivos externos 
+Un documento HTML define la estructura básica de una página web. Contiene dos secciones principales:
+
+    - &lt;head&gt;: incluye metadatos, información adicional y enlaces a archivos externos 
       (como CSS o scripts).
-    - <body>: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
+
+    - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
 
 ## Ejemplo básico:
 
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <title>Mi página web</title>
-        </head>
-        <body>
-            <h1>Título principal</h1>
-            <p>Este es un párrafo.</p>
-        </body>
-    </html>
+    &lt;!DOCTYPE html&gt;
+
+    &lt;html&gt;
+
+        &lt;head&gt;
+
+            &lt;meta charset="utf-8"&gt;
+
+            &lt;title&gt;Mi página web&gt;/title&gt;
+
+        &lt;/head&gt;
+
+        &lt;body&gt;
+
+            &lt;h1&gt;Título principal&lt;/h1&gt;
+
+            &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+
+        &lt;/body&gt;
+
+    &lt;/html&gt;
 
 Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
-    <meta name="viewport" content="width=device-width"> 
-        → Permite que el sitio sea adaptable a diferentes dispositivos.
+    &lt;meta name="viewport" content="width=device-width"&gt; 
+
+        -Permite que el sitio sea adaptable a diferentes dispositivos.
     
-    <meta name="description" content="Descripción del sitio"> 
-        → Utilizada por los motores de búsqueda.
+    &lt;meta name="description" content="Descripción del sitio"&gt; 
+
+        -Utilizada por los motores de búsqueda.
     
-    <meta name="robots" content="index, follow"> 
-        → Indica a los buscadores si deben indexar la página.
+    &lt;meta name="robots" content="index, follow"&gt; 
+
+        -Indica a los buscadores si deben indexar la página.
 
 
 2. ELEMENTOS DE BLOQUE Y DE LÍNEA
-------------------------------------------
 
-    Los elementos HTML dentro del <body> se dividen en dos tipos:
+    Los elementos HTML dentro del &lt;body&gt; se dividen en dos tipos:
 
     · Elementos de bloque:
+
         - Ocupan todo el ancho disponible y comienzan en una nueva línea.
+
         - Ejemplos:
-            <h1> a <h6>, <p>, <div>, <blockquote>, <pre>, <ul>, <table>.
+
+            &lt;h1&gt; a &lt;h6&gt;, &lt;p&gt;, &lt;div&gt;, &lt;blockquote&gt;, &lt;pre&gt;, &lt;ul&gt;, &lt;table&gt;.
+
         - Se usan para estructurar secciones grandes del contenido.
 
     · Elementos de línea:
+
         - Solo ocupan el espacio necesario y no crean una nueva línea.
+
         - Ejemplos:
-            <em>, <strong>, <span>, <a>, <img>, <code>, <q>.
+
+            &lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;code&gt;, &lt;q&gt;.
+
         - Se usan para resaltar o enlazar partes del texto.
 
 
 3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
-----------------------------------------
 
     · Las etiquetas vienen en pares:
-        <p>Texto</p>
+
+        &lt;p&gt;Texto&lt;/p&gt;
 
     · Algunas etiquetas son vacías (no tienen cierre):
-        <img>, <br>, <input>
+
+        &lt;img&gt;, &lt;br&gt;, &lt;input&gt;
 
     · Deben anidarse correctamente:
-        <b><i>Texto</i></b> es correcto.
-        <b><i>Texto</b></i> es incorrecto.
+
+        &lt;b&gt;&lt;i&gt;Texto&lt;/i&gt;&lt;/b&gt; es correcto.
+
+        &lt;b&gt;&lt;i&gt;Texto&lt;/b&gt;&lt;/i&gt; es incorrecto.
 
     · Los atributos se colocan en la etiqueta de apertura:
-        <img src="imagen.jpg" alt="Descripción">
 
-    · Recomendación:
-        Escribir siempre las etiquetas y atributos en minúsculas.
+        &lt;img src="imagen.jpg" alt="Descripción"&gt;
 
 
 4. COMENTARIOS
-------------------------------------------
 
     Los comentarios permiten añadir anotaciones que no se muestran en el navegador.
 
     Sintaxis:
-        <!-- comentario -->
+
+        &lt;!-- comentario --&gt;
 
     Ejemplo de uso:
 
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <title>Título</title>
-            </head>
-            <body>
-                <!-- Cabecera -->
-                <!-- Menú de navegación -->
-                <!-- Contenido principal -->
-                <!-- Pie de página -->
-            </body>
-        </html>
+        &lt;!DOCTYPE html&gt;
+
+        &lt;html&gt;
+
+            &lt;head&gt;
+
+                &lt;title&gt;Título&lt;/title&gt;
+
+            &lt;/head&gt;
+
+            &lt;body&gt;
+
+                &lt;!-- Cabecera --&gt;
+
+                &lt;!-- Menú de navegación --&gt;
+
+                &lt;!-- Contenido principal --&gt;
+
+                &lt;!-- Pie de página --&gt;
+
+            &lt;/body&gt;
+
+        &lt;/html&gt;
 
 
 5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
-------------------------------------------
 
     Es fundamental que el código sea claro y legible para otros desarrolladores.
 
     · Recomendaciones:
+
         - Usar comentarios claros.
+
         - Mantener sangrías correctas.
+
         - Organizar los archivos por carpetas (css, images, js).
+
         - Evitar líneas demasiado largas.
 
     · Motivo:
+
         Facilita la colaboración y el mantenimiento del proyecto.
 
 
 6. ETIQUETAS BÁSICAS DE HTML
-------------------------------
 
     · Encabezados:
-        <h1> a <h6> → Títulos y subtítulos (bloque).
+
+        &lt;h1&gt; a &lt;h6&gt; - Títulos y subtítulos (bloque).
 
     · Párrafos:
-        <p> → Agrupa frases relacionadas (bloque).
+
+        &lt;p&gt; - Agrupa frases relacionadas (bloque).
 
     · Saltos de línea:
-        <br> → Inserta un salto de línea.
+
+        &lt;br&gt; - Inserta un salto de línea.
 
     · Separadores:
-        <hr> → Crea una línea horizontal divisoria.
+
+        &lt;hr&gt; - Crea una línea horizontal divisoria.
 
     · Énfasis:
-        <em> → Texto en cursiva.
-        <strong> → Texto en negrita.
+
+        &lt;em&gt; - Texto en cursiva.
+
+        &lt;strong&gt; - Texto en negrita.
 
     · Span:
-        <span> → Contenedor en línea para aplicar estilos dentro de un texto.
+
+        &lt;span&gt; - Contenedor en línea para aplicar estilos dentro de un texto.
 
 
 7. RUTAS EN HTML
------------------
 
     · Ruta absoluta:
+
         Especifica la dirección completa del archivo en la web.
+
         Ejemplo:
-            <img src="https://www.example.com/imagen.jpg" alt="Ejemplo">
+
+            &lt;img src="https://www.example.com/imagen.jpg" alt="Ejemplo"&gt;
 
     · Ruta relativa:
+
         Especifica la ubicación del archivo respecto al documento actual.
+
         Ejemplo:
-            <img src="images/logo.png" alt="Logo del sitio">
+
+            &lt;img src="images/logo.png" alt="Logo del sitio"&gt;
 
 
 8. ENLACES (&lt;a&gt;)
------------------
 
     · Permiten navegar entre documentos mediante el atributo href.
+
         Ejemplo:
-            <a href="https://www.ejemplo.com">Ir al sitio</a>
+
+            &lt;a href="https://www.ejemplo.com"&gt;Ir al sitio&lt;/a&gt;
 
     · Enlaces externos:
+
         Conectan con páginas fuera del sitio.
 
     · Enlaces locales:
+
         Conectan con documentos del mismo sitio (usando rutas relativas).
 
     · Atributos comunes:
+
         - href: destino del enlace.
+
         - title: texto informativo al pasar el cursor.
 
 
 9. FORMULARIOS
----------------
 
     · Sirven para interactuar con el usuario y enviar información al servidor.
 
     · Tipos de controles:
-        - <input type="text"> → campo de texto.
-        - <input type="password"> → contraseña.
-        - <input type="radio"> → botón de opción.
-        - <input type="checkbox"> → casilla de verificación.
-        - <button> → botón de envío.
-        - <select> → lista desplegable.
-        - <textarea> → área de texto.
-        - <input type="file"> → subida de archivos.
+
+        - &lt;input type="text"&gt; - campo de texto.
+
+        - &lt;input type="password"&gt; - contraseña.
+
+        - &lt;input type="radio"&gt; - botón de opción.
+
+        - &lt;input type="checkbox"&gt; - casilla de verificación.
+
+        - &lt;button&gt; - botón de envío.
+
+        - &lt;select&gt; - lista desplegable.
+
+        - &lt;textarea&gt; - área de texto.
+
+        - &lt;input type="file"&gt; - subida de archivos.
 
     · Cada control debe tener un atributo name para identificar el dato enviado.
 
 
 10. ETIQUETA &lt;form&gt;
---------------------
 
     · Se utiliza para crear formularios.
 
     · Atributos principales:
+
         - action: URL a la que se enviarán los datos.
+
         - method: método de envío (GET o POST).
+
         - enctype: cómo se codifican los datos.
+
         - target: dónde se mostrará la respuesta (_self o _blank).
 
     · Ejemplo completo:
 
-        <form action="process.php" method="post" enctype="multipart/form-data">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name">
+        &lt;form action="process.php" method="post" enctype="multipart/form-data"&gt;
 
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email">
+            &lt;label for="name"&gt;Nombre:&lt;/label&gt;
 
-            <label for="file">Subir archivo:</label>
-            <input type="file" id="file" name="file">
+            &lt;input type="text" id="name" name="name"&gt;
 
-            <button type="submit">Enviar</button>
-        </form>
+            &lt;label for="email"&gt;Correo electrónico:&lt;/label&gt;
 
+            &lt;input type="email" id="email" name="email"&gt;
 
+            &lt;label for="file"&gt;Subir archivo:&lt;/label&gt;
 
-__*ABRIR ETIQUTA 1*__
-    ABRIR ETIQUETA 2 
-        contenido
-    CERRAR ETIQUETA 2
-CERRAR ETIQUETA 1
+            &lt;input type="file" id="file" name="file"&gt;
 
-__Para hacer una lista ordenada utilizaremos 1. 2. 3. y para una lista desordenada utilizaremos el * el + o -__
+            &lt;button type="submit"&gt;Enviar&lt;/button&gt;
 
-* Elemento desordenado 1
-* Elemento desordenado 2
-* Elemento desrodenado 3
-
-1. Elemento 1
-2. Elemento 2
-3. Elemento 3
-
-__Para hacer una lista anexada pondremos 1. y debajo el * y le daremos al tabulador para el sangrado__
-1. Elemento 1
-    * Elemento desordenado 1,2
-    * Elemento desordenado 1,2
-2. Elemento 2
-    * Elemento desordenado 2,1
-    * Elemento desordenado 2,2
-3. Elemento 3
-
-**Para hacer un parrafo clicamos dos veces al intro**
-
-hola que tal: Esto es un parrafo 
-
-
-Yo bien y gracias por el parrafo
-
-Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir el parrafo</p> y ``` para cerrars)
-
-```html
-<p>Esto es un parrafo</p>
-```
-
-
-## GitHub
-
-1. Para crear un repositorio iremos a GitHub uscandolo en el navegador 
-2. Luego iniciaremos sesion y clicaremos Repositorios y clicaremos new.
-3. Una vez dentro escribiremos el nombre que queramos que tenga el repositorio.
-4. Bajaremos y pondremos el repositorio en publico y la opcion de README.md la activaremos.
-5. Y ya estaria creado el repositorio ahora en git explico como clonar y subir.
-6. Para hacer el pages entraremos en ajustes.
-7. Una vez dentro buscamos donde dice pages y entramos.
-8. Una vez dentro buscaremos donde dice Branch y donde pone None clicaremos y pondremos main y clicamos save.
-9. Ahora solo tendremos que esperar que arriba aparezca el pages ya creado. (Tener el repositorio en publico para hacer el pages)
-
-## Git 
-
-1. Primer paso antes de nada tendremos que crear un repositorio en el GitHub y una vez creado copiaremos el codigo.
-2. Despues iremos a la carpeta donde tengamos todos los repositorios y en la ruta de arriba la borraremos y escribiremos cmd.
-3. Despues cuando se abra el cmd escribiremos git clone y pegaremos la url y clicamos al enter.
-4. Una vez clonado entraremos en la carpeta del repositorio nuevo y arriba eliminaremos la ruta y escribiremos cmd.
-5. Seguidamente escribiremos git init y despues git add .
-6. Despues si queremos hacer algun commit de algun cambio del visual estudio escribiremos git commit -m "Aqui el comentario"
-7. Por ultimo para subir los archivos escribiremos git push origin main.
+        &lt;/form&gt;
