@@ -203,8 +203,8 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 
 &lt;/html&gt;
 
-1. ESTRUCTURA BÁSICA DE UN FICHERO HTML
-
+1. ### ESTRUCTURA BÁSICA DE UN FICHERO HTML
+------------------------------------------
     Un documento HTML define la estructura básica de una página web. 
 Contiene dos secciones principales:
 
@@ -239,7 +239,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 2. ELEMENTOS DE BLOQUE Y DE LÍNEA
-
+------------------------------------------
 
     Los elementos HTML dentro del <body> se dividen en dos tipos:
 
@@ -257,7 +257,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
-
+----------------------------------------
 
     · Las etiquetas vienen en pares:
         <p>Texto</p>
@@ -277,6 +277,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 4. COMENTARIOS
+------------------------------------------
 
     Los comentarios permiten añadir anotaciones que no se muestran en el navegador.
 
@@ -300,6 +301,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
+------------------------------------------
 
     Es fundamental que el código sea claro y legible para otros desarrolladores.
 
@@ -314,7 +316,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 6. ETIQUETAS BÁSICAS DE HTML
-
+------------------------------
 
     · Encabezados:
         <h1> a <h6> → Títulos y subtítulos (bloque).
@@ -337,7 +339,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 7. RUTAS EN HTML
-
+-----------------
 
     · Ruta absoluta:
         Especifica la dirección completa del archivo en la web.
@@ -351,7 +353,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 8. ENLACES (<a>)
-
+-----------------
 
     · Permiten navegar entre documentos mediante el atributo href.
         Ejemplo:
@@ -368,9 +370,8 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
         - title: texto informativo al pasar el cursor.
 
 
-
 9. FORMULARIOS
-
+---------------
 
     · Sirven para interactuar con el usuario y enviar información al servidor.
 
@@ -388,7 +389,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
 
 10. ETIQUETA <form>
-
+--------------------
 
     · Se utiliza para crear formularios.
 
