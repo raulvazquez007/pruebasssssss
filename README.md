@@ -236,72 +236,72 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
 &lt;/html&gt;
 
-Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
+**Dentro del** &lt;head&gt; **pueden incluirse etiquetas importantes como:**
 
 &lt;meta name="viewport" content="width=device-width"&gt; 
 
--Permite que el sitio sea adaptable a diferentes dispositivos.
+**-Permite que el sitio sea adaptable a diferentes dispositivos.**
     
 &lt;meta name="description" content="Descripción del sitio"&gt; 
 
--Utilizada por los motores de búsqueda.
+**-Utilizada por los motores de búsqueda.**
     
 &lt;meta name="robots" content="index, follow"&gt; 
 
--Indica a los buscadores si deben indexar la página.
+**-Indica a los buscadores si deben indexar la página.**
 
 
-2. ELEMENTOS DE BLOQUE Y DE LÍNEA
+2. **ELEMENTOS DE BLOQUE Y DE LÍNEA**
 
     Los elementos HTML dentro del &lt;body&gt; se dividen en dos tipos:
 
     · Elementos de bloque:
 
-    - Ocupan todo el ancho disponible y comienzan en una nueva línea.
+    - _Ocupan todo el ancho disponible y comienzan en una nueva línea._
 
     - Ejemplos:
 
     &lt;h1&gt; a &lt;h6&gt;, &lt;p&gt;, &lt;div&gt;, &lt;blockquote&gt;, &lt;pre&gt;, &lt;ul&gt;, &lt;table&gt;.
 
-    - Se usan para estructurar secciones grandes del contenido.
+    - _Se usan para estructurar secciones grandes del contenido._
 
-    · Elementos de línea:
+    · _Elementos de línea:_
 
-    - Solo ocupan el espacio necesario y no crean una nueva línea.
+    - _Solo ocupan el espacio necesario y no crean una nueva línea._
 
-    - Ejemplos:
+    - **Ejemplos:**
 
     &lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;code&gt;, &lt;q&gt;.
 
-    - Se usan para resaltar o enlazar partes del texto.
+    - _Se usan para resaltar o enlazar partes del texto._
 
 
-3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
+3. **NORMAS BÁSICAS DE LAS ETIQUETAS HTML**
 
-    · Las etiquetas vienen en pares:
+    · _Las etiquetas vienen en pares:_
 
     &lt;p&gt;Texto&lt;/p&gt;
 
-    · Algunas etiquetas son vacías (no tienen cierre):
+    · _Algunas etiquetas son vacías (no tienen cierre):_
 
     &lt;img&gt;, &lt;br&gt;, &lt;input&gt;
 
-    · Deben anidarse correctamente:
+    · _Deben anidarse correctamente:_
 
     &lt;b&gt;&lt;i&gt;Texto&lt;/i&gt;&lt;/b&gt; es correcto.
 
     &lt;b&gt;&lt;i&gt;Texto&lt;/b&gt;&lt;/i&gt; es incorrecto.
 
-    · Los atributos se colocan en la etiqueta de apertura:
+    · _Los atributos se colocan en la etiqueta de apertura:_
 
     &lt;img src="imagen.jpg" alt="Descripción"&gt;
 
 
-4. COMENTARIOS
+4. **COMENTARIOS**
 
     Los comentarios permiten añadir anotaciones que no se muestran en el navegador.
 
-    Sintaxis:
+    _Sintaxis:_
 
     &lt;!-- comentario --&gt;
 
@@ -332,11 +332,11 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
      &lt;/html&gt;
 
 
-5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
+5. **LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO**
 
     Es fundamental que el código sea claro y legible para otros desarrolladores.
 
-    · Recomendaciones:
+    · _Recomendaciones:_
 
         - Usar comentarios claros.
 
@@ -346,87 +346,87 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         - Evitar líneas demasiado largas.
 
-    · Motivo:
+    · _Motivo:_
 
         Facilita la colaboración y el mantenimiento del proyecto.
 
 
-6. ETIQUETAS BÁSICAS DE HTML
+6. **ETIQUETAS BÁSICAS DE HTML**
 
-    · Encabezados:
+    · _Encabezados:_
 
     &lt;h1&gt; a &lt;h6&gt; - Títulos y subtítulos (bloque).
 
-    · Párrafos:
+    · _Párrafos:_
 
     &lt;p&gt; - Agrupa frases relacionadas (bloque).
 
-    · Saltos de línea:
+    · _Saltos de línea:_
 
     &lt;br&gt; - Inserta un salto de línea.
 
-    · Separadores:
+    · _Separadores:_
 
     &lt;hr&gt; - Crea una línea horizontal divisoria.
 
-    · Énfasis:
+    · _Énfasis:_
 
     &lt;em&gt; - Texto en cursiva.
 
     &lt;strong&gt; - Texto en negrita.
 
-    · Span:
+    · _Span:_
 
     &lt;span&gt; - Contenedor en línea para aplicar estilos dentro de un texto.
 
 
-7. RUTAS EN HTML
+7. **RUTAS EN HTML**
 
-    · Ruta absoluta:
+    · **Ruta absoluta:**
 
         Especifica la dirección completa del archivo en la web.
 
-        Ejemplo:
+        _Ejemplo:_
 
     &lt;img src="https://www.example.com/imagen.jpg" alt="Ejemplo"&gt;
 
-    · Ruta relativa:
+    · **Ruta relativa:**
 
         Especifica la ubicación del archivo respecto al documento actual.
 
-        Ejemplo:
+        _Ejemplo:_
 
     &lt;img src="images/logo.png" alt="Logo del sitio"&gt;
 
 
-8. ENLACES (&lt;a&gt;)
+8. **ENLACES (&lt;a&gt;)**
 
-    · Permiten navegar entre documentos mediante el atributo href.
+    · _Permiten navegar entre documentos mediante el atributo href._
 
         Ejemplo:
 
     &lt;a href="https://www.ejemplo.com"&gt;Ir al sitio&lt;/a&gt;
 
-    · Enlaces externos:
+    · _Enlaces externos:_
 
         Conectan con páginas fuera del sitio.
 
-    · Enlaces locales:
+    · _Enlaces locales:_
 
         Conectan con documentos del mismo sitio (usando rutas relativas).
 
-    · Atributos comunes:
+    · _Atributos comunes:_
 
         - href: destino del enlace.
 
         - title: texto informativo al pasar el cursor.
 
 
-9. FORMULARIOS
+9. **FORMULARIOS**
 
     · Sirven para interactuar con el usuario y enviar información al servidor.
 
-    · Tipos de controles:
+    · _Tipos de controles:_
 
     - &lt;input type="text"&gt; - campo de texto.
 
@@ -447,11 +447,11 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
     · Cada control debe tener un atributo name para identificar el dato enviado.
 
 
-10. ETIQUETA &lt;form&gt;
+10. **ETIQUETA &lt;form&gt;**
 
     · Se utiliza para crear formularios.
 
-    · Atributos principales:
+    · _Atributos principales:_
 
         - action: URL a la que se enviarán los datos.
 
@@ -461,7 +461,7 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         - target: dónde se mostrará la respuesta (_self o _blank).
 
-    · Ejemplo completo:
+    · _Ejemplo completo:_
 
     &lt;form action="process.php" method="post" enctype="multipart/form-data"&gt;
 
