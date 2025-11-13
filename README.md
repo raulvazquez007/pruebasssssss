@@ -454,6 +454,19 @@ Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir
 <p>Esto es un parrafo</p>
 ```
 
+
+## GitHub
+
+1. Para crear un repositorio iremos a GitHub uscandolo en el navegador 
+2. Luego iniciaremos sesion y clicaremos Repositorios y clicaremos new.
+3. Una vez dentro escribiremos el nombre que queramos que tenga el repositorio.
+4. Bajaremos y pondremos el repositorio en publico y la opcion de README.md la activaremos.
+5. Y ya estaria creado el repositorio ahora en git explico como clonar y subir.
+6. Para hacer el pages entraremos en ajustes.
+7. Una vez dentro buscamos donde dice pages y entramos.
+8. Una vez dentro buscaremos donde dice Branch y donde pone None clicaremos y pondremos main y clicamos save.
+9. Ahora solo tendremos que esperar que arriba aparezca el pages ya creado. (Tener el repositorio en publico para hacer el pages)
+
 ## Git 
 
 1. Primer paso antes de nada tendremos que crear un repositorio en el GitHub y una vez creado copiaremos el codigo.
