@@ -327,7 +327,7 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
        <!-- Pie de página -->
 
-       &lt;/body&gt;
+    &lt;/body&gt;
 
      &lt;/html&gt;
 
