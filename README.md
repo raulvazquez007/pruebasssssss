@@ -213,7 +213,7 @@ Contiene dos secciones principales:
     - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
 
 ## Ejemplo básico:
-´´´html
+
     <!DOCTYPE html>
     <html>
         <head>
@@ -225,9 +225,9 @@ Contiene dos secciones principales:
             <p>Este es un párrafo.</p>
         </body>
     </html>
-´´´
+
 Dentro del <head> pueden incluirse etiquetas importantes como:
-´´´html
+
     <meta name="viewport" content="width=device-width"> 
         → Permite que el sitio sea adaptable a diferentes dispositivos.
     
@@ -236,11 +236,11 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
     
     <meta name="robots" content="index, follow"> 
         → Indica a los buscadores si deben indexar la página.
-´´´
+
 
 2. ELEMENTOS DE BLOQUE Y DE LÍNEA
 
-´´´html
+
     Los elementos HTML dentro del <body> se dividen en dos tipos:
 
     · Elementos de bloque:
@@ -254,11 +254,11 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
         - Ejemplos:
             <em>, <strong>, <span>, <a>, <img>, <code>, <q>.
         - Se usan para resaltar o enlazar partes del texto.
-´´´
+
 
 3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
 
-´´´html
+
     · Las etiquetas vienen en pares:
         <p>Texto</p>
 
@@ -274,10 +274,9 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
     · Recomendación:
         Escribir siempre las etiquetas y atributos en minúsculas.
-´´´
+
 
 4. COMENTARIOS
-´´´html
 
     Los comentarios permiten añadir anotaciones que no se muestran en el navegador.
 
@@ -299,10 +298,8 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
             </body>
         </html>
 
-´´´
 
 5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
-´´´html
 
     Es fundamental que el código sea claro y legible para otros desarrolladores.
 
@@ -315,9 +312,9 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
     · Motivo:
         Facilita la colaboración y el mantenimiento del proyecto.
 
-´´´
+
 6. ETIQUETAS BÁSICAS DE HTML
-´´´html
+
 
     · Encabezados:
         <h1> a <h6> → Títulos y subtítulos (bloque).
@@ -337,10 +334,10 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
 
     · Span:
         <span> → Contenedor en línea para aplicar estilos dentro de un texto.
-´´´
+
 
 7. RUTAS EN HTML
-´´´html
+
 
     · Ruta absoluta:
         Especifica la dirección completa del archivo en la web.
@@ -352,9 +349,9 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
         Ejemplo:
             <img src="images/logo.png" alt="Logo del sitio">
 
-´´´
+
 8. ENLACES (<a>)
-´´´html
+
 
     · Permiten navegar entre documentos mediante el atributo href.
         Ejemplo:
@@ -370,10 +367,10 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
         - href: destino del enlace.
         - title: texto informativo al pasar el cursor.
 
-´´´
+
 
 9. FORMULARIOS
-´´´html
+
 
     · Sirven para interactuar con el usuario y enviar información al servidor.
 
@@ -388,10 +385,10 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
         - <input type="file"> → subida de archivos.
 
     · Cada control debe tener un atributo name para identificar el dato enviado.
-´´´
+
 
 10. ETIQUETA <form>
-´´´html
+
 
     · Se utiliza para crear formularios.
 
@@ -416,7 +413,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
             <button type="submit">Enviar</button>
         </form>
 
-´´´
+
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
