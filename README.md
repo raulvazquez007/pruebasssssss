@@ -2,9 +2,12 @@
 
 ## Etiquetas basica MarkDown
 ### **Encabezados:** 
-Llevan ya asociado un estilo por defecto cada un y sirven para iniciar secciones de docuemtos.
+Los encabezados vienen con un formato propio y sirven para dividir y organizar secciones dentro de un documento.
+Cuantas más almohadillas uses (#), más pequeño será el título.
+Por ejemplo, una sola # genera el título principal (H1), dos ## el siguiente nivel (H2), y así hasta seis.
 
-Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemos ## seria el segundo mas grandre y asi hasta llegar a seies hastags.
+Ej: 
+
 # Hola
 ## hola
 ### hola
@@ -13,7 +16,7 @@ Ej: Si pones solo una # seria un H1 es decir el encabezado mas grande, si ponemo
 ### **Estilos de letra**
 
 · **Negritas:** 
-Se puede poner el tenxto en negrita utilizando 2 barra bajas delante y dos detras de la palabra o poniedo dos asteriscos delante y y dos detras "__ algo __ o ** algo **" sin seperacion!!
+Para poner texto en negrita, se pueden usar dos guiones bajos(__) o dos asteriscos(**) antes y después del texto, sin espacios.
 
 Ej:
 Esto esta en __negrita__ 
@@ -40,17 +43,14 @@ Ej:![alt tex](./Imagenn1.jpg "Imagen bandera")
 
 ### Tablas
 
-Para hacer tablas utilizaremos el elemento | que son para los encabezados de las columnas.
+Las tablas se crean usando la barra vertical | para separar columnas.
+Se deben incluir tres guiones --- debajo de los encabezados para definirlos, y los dos puntos (:) se usan para alinear el texto (izquierda, centro o derecha).
 
 | *Jugador* | Equipo | Nombre |
 |:---------|:-------------:|:--------------|
 | 32 | Lakers | Magic Johnson |
 | 33 | Celtics| Boston Celtics |
 | 23 | Bulls | Michael Jordan |
-
-Los dos puntos se usasn para alinear las columnas (izquierda/centro/derecha).
-
-Se han de poner al menos tres guiones para separar cada encabezado. 
 
 ### Notas al pie de pagina:
 
@@ -62,7 +62,7 @@ Ej: Texto con enlace a nota de pie de pagina [^1]
 
 ### Introduccion a HTML
 
-· **HTML** (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Lenguaje más importante de Internet dado que sin HTML no se vería nada en el navegador.
+· **HTML** (HyperText Markup Language)es el lenguaje estándar que sirve para crear páginas web. Lenguaje más importante de Internet dado que sin HTML no se vería nada en el navegador.
 
 · **HTML** define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc...) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de entender e interpretar. DESCRIBE EL CONTENIDO.
 
@@ -74,7 +74,7 @@ Ej: Texto con enlace a nota de pie de pagina [^1]
 
 Las siglas de HTML corresponden con **“HyperText Markup Language”**, que tiene el siguiente significado:
 
-· **HyperText**, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+· **HyperText**, su significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
 
 · **Markup**, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: &lt;p&gt;HOLA&lt;/p&gt;. 
 
@@ -82,12 +82,12 @@ Las siglas de HTML corresponden con **“HyperText Markup Language”**, que tie
 
 #### Introduccion a HTML (elementos)
 
-Es decir, que HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de su contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.
+Es decir, que HTML no es un lenguaje de programación; es un lenguaje que define la estructura de su contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.
 
 Esto implica que la información a mostrar ha de ir “etiquetada” para formar elementos que el navegador web sepa interpretar de qué tipo de información se trata y cómo tal sepa cómo representarlos.
 
 ##### Las partes principales del elemento son:
-· **La etiqueta de apertura:** consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
+· **La etiqueta de apertura:** consiste en el nombre del elemento (en este caso, p), encerrado por(< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
 
 · **La etiqueta de cierre:** es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
 
@@ -102,11 +102,11 @@ Los elementos pueden también tener atributos.
 Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento.
 En el siguiente ejemplo:
 
-&lt;p class="editor-note">Mi gato es muy gruñón&lt;/p&gt;
+&lt;p class="gato">Mi gato es muy gruñón&lt;/p&gt;
 
 · class es el **nombre del atributo**
 
-· editor-note es el **valor del atributo**
+· gato es el **valor del atributo**
 
 *Los atributos siempre se incluyen en la etiqueta de apertura de un elemento y deben tener:*
 
@@ -157,7 +157,7 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 
 · **&lt;html&gt;&lt;/html&gt;** el elemento &lt;html&gt;. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).
 
-· **&lt;head&gt; &lt;/head&gt;** el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página.
+· **&lt;head&gt; &lt;/head&gt;** el elemento &lt;head&gt;. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página.
 
 ### Estructura básica de un fichero HTML (2)
 
@@ -257,7 +257,7 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
     · Elementos de bloque:
 
-    - _Ocupan todo el ancho disponible y comienzan en una nueva línea._
+    - _Ocupan todo el ancho que pueda utilizar y comienzan en una nueva línea._
 
     - Ejemplos:
 
@@ -480,3 +480,24 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
      &lt;button type="submit"&gt;Enviar&lt;/button&gt;
 
     &lt;/form&gt;
+
+### GitHub
+
+1. Primero en el buscador de nuestro navegador escribiremos GitHub
+2. Una vez dentro iniciamos sesion con nuestra cuenta y si no tenemos nos registramos.
+3. Despues clicams en el boton New que sale de color verde.
+4. Ahi dentro escribirmeos el nombre del repositiorio y eligiremos si queremos que sea visible o privado.
+5. No es necesario pero yo siempre activo la opcion del README.md
+6. Una vez tengamos el repositorio hecho si queremos hacer el pages iremos a ajustes y luego a pages.
+7. Una vez dentro nos aparece una seccion que dice Branch, donde dice None clicamos y cambiamos a main, clicamos en save y esperamos a que se genere el pages de nuestro repositorio.
+
+### Git 
+
+1. Para clonar un repositorio del GitHub con el git deberemos copiar el code que nos sale en la pantalla principal del repositorio dentro del GitHUb.
+2. Una vez el codigo este copiado abriremos la carpeta donde tengamos todos los repositorios creados.
+3. Una vez dentro arriba donde sale la ruta la eliminaremos y escribiremos cmd y clicaremos enter.
+4. Despues en el cmd escribiremos git init y el codigo del Repositorio.
+5. Luego cerraremos ese cmd y entraremos en la carpeta del repositorio que se ha clonado con el comando anterior. En la ruta de arriba escribiremos cmd y enter.
+5. Dentro del cmd escribiremos git init, despues git add .
+6. Una vez hecho eso cuando queramos subir cambios que hemos realizado en el visual escribiremos git commit -m "texto informativo"
+7. Y por ultimo escribiremos git push origin main y ya estaran subidos los cambios.
