@@ -226,7 +226,7 @@ Contiene dos secciones principales:
         </body>
     </html>
 
-Dentro del <head> pueden incluirse etiquetas importantes como:
+Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     <meta name="viewport" content="width=device-width"> 
         → Permite que el sitio sea adaptable a diferentes dispositivos.
@@ -352,7 +352,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
             <img src="images/logo.png" alt="Logo del sitio">
 
 
-8. ENLACES (<a>)
+8. ENLACES (&lt;a&gt;)
 -----------------
 
     · Permiten navegar entre documentos mediante el atributo href.
@@ -388,7 +388,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
     · Cada control debe tener un atributo name para identificar el dato enviado.
 
 
-10. ETIQUETA <form>
+10. ETIQUETA &lt;form&gt;
 --------------------
 
     · Se utiliza para crear formularios.
