@@ -159,6 +159,30 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 
 · **&lt;head&gt; &lt;/head&gt;** el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página.
 
+### Estructura básica de un fichero HTML (2)
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="description" content="Esta es una página web de ejemplo que demuestra el uso de metadatos, estilos CSS y otras características básicas de HTML."&gt;
+  &lt;meta name="keywords" content="HTML, CSS, ejemplo, metadatos, favicon"&gt;
+ &lt;title&gt;Mi página de prueba&lt;/title&gt;
+  &lt;link rel="icon" href="favicon.png"&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+  &lt;style&gt;
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+   }
+  &lt;/style&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;img src="images/firefox-icon.png" alt="Mi imagen de prueba"&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
@@ -197,3 +221,8 @@ Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir
 ```html
 <p>Esto es un parrafo</p>
 ```
+
+## Git 
+
+1. Primer paso antes de nada tendremos que crear un repositorio en el GitHub y una vez creado copiaremos el codigo.
+2. Despues iremos a la car
