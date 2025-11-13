@@ -240,15 +240,15 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
 &lt;meta name="viewport" content="width=device-width"&gt; 
 
-    -Permite que el sitio sea adaptable a diferentes dispositivos.
+-Permite que el sitio sea adaptable a diferentes dispositivos.
     
 &lt;meta name="description" content="Descripción del sitio"&gt; 
 
-    -Utilizada por los motores de búsqueda.
+-Utilizada por los motores de búsqueda.
     
 &lt;meta name="robots" content="index, follow"&gt; 
 
-    -Indica a los buscadores si deben indexar la página.
+-Indica a los buscadores si deben indexar la página.
 
 
 2. ELEMENTOS DE BLOQUE Y DE LÍNEA
@@ -257,23 +257,23 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     · Elementos de bloque:
 
-        - Ocupan todo el ancho disponible y comienzan en una nueva línea.
+    - Ocupan todo el ancho disponible y comienzan en una nueva línea.
 
-        - Ejemplos:
+    - Ejemplos:
 
     &lt;h1&gt; a &lt;h6&gt;, &lt;p&gt;, &lt;div&gt;, &lt;blockquote&gt;, &lt;pre&gt;, &lt;ul&gt;, &lt;table&gt;.
 
-        - Se usan para estructurar secciones grandes del contenido.
+    - Se usan para estructurar secciones grandes del contenido.
 
     · Elementos de línea:
 
-        - Solo ocupan el espacio necesario y no crean una nueva línea.
+    - Solo ocupan el espacio necesario y no crean una nueva línea.
 
-        - Ejemplos:
+    - Ejemplos:
 
     &lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;code&gt;, &lt;q&gt;.
 
-        - Se usan para resaltar o enlazar partes del texto.
+    - Se usan para resaltar o enlazar partes del texto.
 
 
 3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
