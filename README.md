@@ -162,25 +162,42 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 ### Estructura básica de un fichero HTML (2)
 
 &lt;!DOCTYPE html&gt;
+
 &lt;html&gt;
+
  &lt;head&gt;
+
   &lt;meta charset="utf-8"&gt;
+
   &lt;meta name="description" content="Esta es una página web de ejemplo que demuestra el uso de metadatos, estilos CSS y otras características básicas de HTML."&gt;
+
   &lt;meta name="keywords" content="HTML, CSS, ejemplo, metadatos, favicon"&gt;
+
  &lt;title&gt;Mi página de prueba&lt;/title&gt;
+
   &lt;link rel="icon" href="favicon.png"&gt;
+
   &lt;link rel="stylesheet" href="styles.css"&gt;
+
   &lt;script src="script.js"&gt;&lt;/script&gt;
+
   &lt;style&gt;
+
    body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
    }
+
   &lt;/style&gt;
+
  &lt;/head&gt;
+
  &lt;body&gt;
+
   &lt;img src="images/firefox-icon.png" alt="Mi imagen de prueba"&gt;
+
  &lt;/body&gt;
+
 &lt;/html&gt;
 
 
