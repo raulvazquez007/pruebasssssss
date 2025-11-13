@@ -203,9 +203,6 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 
 &lt;/html&gt;
 
-RESUMEN GENERAL DE HTML
-
-
 1. ESTRUCTURA BÁSICA DE UN FICHERO HTML
 
     Un documento HTML define la estructura básica de una página web. 
@@ -215,8 +212,8 @@ Contiene dos secciones principales:
       (como CSS o scripts).
     - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
 
-Ejemplo básico:
-
+## Ejemplo básico:
+´´´html
     <!DOCTYPE html>
     <html>
         <head>
@@ -228,9 +225,9 @@ Ejemplo básico:
             <p>Este es un párrafo.</p>
         </body>
     </html>
-
+´´´
 Dentro del <head> pueden incluirse etiquetas importantes como:
-
+´´´html
     <meta name="viewport" content="width=device-width"> 
         → Permite que el sitio sea adaptable a diferentes dispositivos.
     
@@ -239,48 +236,48 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
     
     <meta name="robots" content="index, follow"> 
         → Indica a los buscadores si deben indexar la página.
-
+´´´
 
 2. ELEMENTOS DE BLOQUE Y DE LÍNEA
-----------------------------------
 
+´´´html
     Los elementos HTML dentro del <body> se dividen en dos tipos:
 
-    ▪ Elementos de bloque:
+    · Elementos de bloque:
         - Ocupan todo el ancho disponible y comienzan en una nueva línea.
         - Ejemplos:
             <h1> a <h6>, <p>, <div>, <blockquote>, <pre>, <ul>, <table>.
         - Se usan para estructurar secciones grandes del contenido.
 
-    ▪ Elementos de línea:
+    · Elementos de línea:
         - Solo ocupan el espacio necesario y no crean una nueva línea.
         - Ejemplos:
             <em>, <strong>, <span>, <a>, <img>, <code>, <q>.
         - Se usan para resaltar o enlazar partes del texto.
-
+´´´
 
 3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
-----------------------------------------
 
-    ▪ Las etiquetas vienen en pares:
+´´´html
+    · Las etiquetas vienen en pares:
         <p>Texto</p>
 
-    ▪ Algunas etiquetas son vacías (no tienen cierre):
+    · Algunas etiquetas son vacías (no tienen cierre):
         <img>, <br>, <input>
 
-    ▪ Deben anidarse correctamente:
+    · Deben anidarse correctamente:
         <b><i>Texto</i></b> es correcto.
         <b><i>Texto</b></i> es incorrecto.
 
-    ▪ Los atributos se colocan en la etiqueta de apertura:
+    · Los atributos se colocan en la etiqueta de apertura:
         <img src="imagen.jpg" alt="Descripción">
 
-    ▪ Recomendación:
+    · Recomendación:
         Escribir siempre las etiquetas y atributos en minúsculas.
-
+´´´
 
 4. COMENTARIOS
---------------
+´´´html
 
     Los comentarios permiten añadir anotaciones que no se muestran en el navegador.
 
@@ -302,83 +299,85 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
             </body>
         </html>
 
+´´´
 
 5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
-------------------------------------------
+´´´html
 
     Es fundamental que el código sea claro y legible para otros desarrolladores.
 
-    ▪ Recomendaciones:
+    · Recomendaciones:
         - Usar comentarios claros.
         - Mantener sangrías correctas.
         - Organizar los archivos por carpetas (css, images, js).
         - Evitar líneas demasiado largas.
 
-    ▪ Motivo:
+    · Motivo:
         Facilita la colaboración y el mantenimiento del proyecto.
 
-
+´´´
 6. ETIQUETAS BÁSICAS DE HTML
-------------------------------
+´´´html
 
-    ▪ Encabezados:
+    · Encabezados:
         <h1> a <h6> → Títulos y subtítulos (bloque).
 
-    ▪ Párrafos:
+    · Párrafos:
         <p> → Agrupa frases relacionadas (bloque).
 
-    ▪ Saltos de línea:
+    · Saltos de línea:
         <br> → Inserta un salto de línea.
 
-    ▪ Separadores:
+    · Separadores:
         <hr> → Crea una línea horizontal divisoria.
 
-    ▪ Énfasis:
+    · Énfasis:
         <em> → Texto en cursiva.
         <strong> → Texto en negrita.
 
-    ▪ Span:
+    · Span:
         <span> → Contenedor en línea para aplicar estilos dentro de un texto.
-
+´´´
 
 7. RUTAS EN HTML
------------------
+´´´html
 
-    ▪ Ruta absoluta:
+    · Ruta absoluta:
         Especifica la dirección completa del archivo en la web.
         Ejemplo:
             <img src="https://www.example.com/imagen.jpg" alt="Ejemplo">
 
-    ▪ Ruta relativa:
+    · Ruta relativa:
         Especifica la ubicación del archivo respecto al documento actual.
         Ejemplo:
             <img src="images/logo.png" alt="Logo del sitio">
 
-
+´´´
 8. ENLACES (<a>)
------------------
+´´´html
 
-    ▪ Permiten navegar entre documentos mediante el atributo href.
+    · Permiten navegar entre documentos mediante el atributo href.
         Ejemplo:
             <a href="https://www.ejemplo.com">Ir al sitio</a>
 
-    ▪ Enlaces externos:
+    · Enlaces externos:
         Conectan con páginas fuera del sitio.
 
-    ▪ Enlaces locales:
+    · Enlaces locales:
         Conectan con documentos del mismo sitio (usando rutas relativas).
 
-    ▪ Atributos comunes:
+    · Atributos comunes:
         - href: destino del enlace.
         - title: texto informativo al pasar el cursor.
 
+´´´
 
 9. FORMULARIOS
----------------
+´´´html
 
-    ▪ Sirven para interactuar con el usuario y enviar información al servidor.
+    · Sirven para interactuar con el usuario y enviar información al servidor.
 
-    ▪ Tipos de controles:
+    · Tipos de controles:
         - <input type="text"> → campo de texto.
         - <input type="password"> → contraseña.
         - <input type="radio"> → botón de opción.
@@ -388,21 +387,21 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
         - <textarea> → área de texto.
         - <input type="file"> → subida de archivos.
 
-    ▪ Cada control debe tener un atributo name para identificar el dato enviado.
-
+    · Cada control debe tener un atributo name para identificar el dato enviado.
+´´´
 
 10. ETIQUETA <form>
---------------------
+´´´html
 
-    ▪ Se utiliza para crear formularios.
+    · Se utiliza para crear formularios.
 
-    ▪ Atributos principales:
+    · Atributos principales:
         - action: URL a la que se enviarán los datos.
         - method: método de envío (GET o POST).
         - enctype: cómo se codifican los datos.
         - target: dónde se mostrará la respuesta (_self o _blank).
 
-    ▪ Ejemplo completo:
+    · Ejemplo completo:
 
         <form action="process.php" method="post" enctype="multipart/form-data">
             <label for="name">Nombre:</label>
@@ -417,7 +416,7 @@ Dentro del <head> pueden incluirse etiquetas importantes como:
             <button type="submit">Enviar</button>
         </form>
 
-
+´´´
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
