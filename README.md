@@ -457,4 +457,9 @@ Otra forma de hacer un parrafo urilizaremos las (```html <p>Las p para eescribir
 ## Git 
 
 1. Primer paso antes de nada tendremos que crear un repositorio en el GitHub y una vez creado copiaremos el codigo.
-2. Despues iremos a la car
+2. Despues iremos a la carpeta donde tengamos todos los repositorios y en la ruta de arriba la borraremos y escribiremos cmd.
+3. Despues cuando se abra el cmd escribiremos git clone y pegaremos la url y clicamos al enter.
+4. Una vez clonado entraremos en la carpeta del repositorio nuevo y arriba eliminaremos la ruta y escribiremos cmd.
+5. Seguidamente escribiremos git init y despues git add .
+6. Despues si queremos hacer algun commit de algun cambio del visual estudio escribiremos git commit -m "Aqui el comentario"
+7. Por ultimo para subir los archivos escribiremos git push origin main.
