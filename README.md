@@ -338,7 +338,7 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
     · _Recomendaciones:_
 
-        - Usar comentarios claros.
+    - Usar comentarios claros.
 
         - Mantener sangrías correctas.
 
@@ -348,7 +348,7 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
     · _Motivo:_
 
-        Facilita la colaboración y el mantenimiento del proyecto.
+    Facilita la colaboración y el mantenimiento del proyecto.
 
 
 6. **ETIQUETAS BÁSICAS DE HTML**
@@ -384,17 +384,17 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
     · **Ruta absoluta:**
 
-        Especifica la dirección completa del archivo en la web.
+    Especifica la dirección completa del archivo en la web.
 
-        _Ejemplo:_
+     _Ejemplo:_
 
     &lt;img src="https://www.example.com/imagen.jpg" alt="Ejemplo"&gt;
 
     · **Ruta relativa:**
 
-        Especifica la ubicación del archivo respecto al documento actual.
+    Especifica la ubicación del archivo respecto al documento actual.
 
-        _Ejemplo:_
+    _Ejemplo:_
 
     &lt;img src="images/logo.png" alt="Logo del sitio"&gt;
 
@@ -403,23 +403,23 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
     · _Permiten navegar entre documentos mediante el atributo href._
 
-        Ejemplo:
+    _Ejemplo:_
 
     &lt;a href="https://www.ejemplo.com"&gt;Ir al sitio&lt;/a&gt;
 
     · _Enlaces externos:_
 
-        Conectan con páginas fuera del sitio.
+    Conectan con páginas fuera del sitio.
 
     · _Enlaces locales:_
 
-        Conectan con documentos del mismo sitio (usando rutas relativas).
+    Conectan con documentos del mismo sitio (usando rutas relativas).
 
     · _Atributos comunes:_
 
-        - href: destino del enlace.
+    - href: destino del enlace.
 
-        - title: texto informativo al pasar el cursor.
+    - title: texto informativo al pasar el cursor.
 
 
 9. **FORMULARIOS**
@@ -453,13 +453,13 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
     · _Atributos principales:_
 
-        - action: URL a la que se enviarán los datos.
+    - action: URL a la que se enviarán los datos.
 
-        - method: método de envío (GET o POST).
+    - method: método de envío (GET o POST).
 
-        - enctype: cómo se codifican los datos.
+    - enctype: cómo se codifican los datos.
 
-        - target: dónde se mostrará la respuesta (_self o _blank).
+    - target: dónde se mostrará la respuesta (_self o _blank).
 
     · _Ejemplo completo:_
 
