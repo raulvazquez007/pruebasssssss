@@ -214,39 +214,39 @@ Un documento HTML define la estructura básica de una página web. Contiene dos 
 
 ## Ejemplo básico:
 
-    &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 
-    &lt;html&gt;
+&lt;html&gt;
 
-        &lt;head&gt;
+ &lt;head&gt;
 
-            &lt;meta charset="utf-8"&gt;
+  &lt;meta charset="utf-8"&gt;
 
-            &lt;title&gt;Mi página web&gt;/title&gt;
+  &lt;title&gt;Mi página web&gt;/title&gt;
 
-        &lt;/head&gt;
+ &lt;/head&gt;
 
-        &lt;body&gt;
+ &lt;body&gt;
 
-            &lt;h1&gt;Título principal&lt;/h1&gt;
+  &lt;h1&gt;Título principal&lt;/h1&gt;
 
-            &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+  &lt;p&gt;Este es un párrafo.&lt;/p&gt;
 
-        &lt;/body&gt;
+ &lt;/body&gt;
 
-    &lt;/html&gt;
+&lt;/html&gt;
 
 Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
-    &lt;meta name="viewport" content="width=device-width"&gt; 
+&lt;meta name="viewport" content="width=device-width"&gt; 
 
         -Permite que el sitio sea adaptable a diferentes dispositivos.
     
-    &lt;meta name="description" content="Descripción del sitio"&gt; 
+&lt;meta name="description" content="Descripción del sitio"&gt; 
 
         -Utilizada por los motores de búsqueda.
     
-    &lt;meta name="robots" content="index, follow"&gt; 
+&lt;meta name="robots" content="index, follow"&gt; 
 
         -Indica a los buscadores si deben indexar la página.
 
@@ -261,7 +261,7 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         - Ejemplos:
 
-            &lt;h1&gt; a &lt;h6&gt;, &lt;p&gt;, &lt;div&gt;, &lt;blockquote&gt;, &lt;pre&gt;, &lt;ul&gt;, &lt;table&gt;.
+    &lt;h1&gt; a &lt;h6&gt;, &lt;p&gt;, &lt;div&gt;, &lt;blockquote&gt;, &lt;pre&gt;, &lt;ul&gt;, &lt;table&gt;.
 
         - Se usan para estructurar secciones grandes del contenido.
 
@@ -271,7 +271,7 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         - Ejemplos:
 
-            &lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;code&gt;, &lt;q&gt;.
+    &lt;em&gt;, &lt;strong&gt;, &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;code&gt;, &lt;q&gt;.
 
         - Se usan para resaltar o enlazar partes del texto.
 
@@ -280,21 +280,21 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     · Las etiquetas vienen en pares:
 
-        &lt;p&gt;Texto&lt;/p&gt;
+    &lt;p&gt;Texto&lt;/p&gt;
 
     · Algunas etiquetas son vacías (no tienen cierre):
 
-        &lt;img&gt;, &lt;br&gt;, &lt;input&gt;
+    &lt;img&gt;, &lt;br&gt;, &lt;input&gt;
 
     · Deben anidarse correctamente:
 
-        &lt;b&gt;&lt;i&gt;Texto&lt;/i&gt;&lt;/b&gt; es correcto.
+    &lt;b&gt;&lt;i&gt;Texto&lt;/i&gt;&lt;/b&gt; es correcto.
 
-        &lt;b&gt;&lt;i&gt;Texto&lt;/b&gt;&lt;/i&gt; es incorrecto.
+    &lt;b&gt;&lt;i&gt;Texto&lt;/b&gt;&lt;/i&gt; es incorrecto.
 
     · Los atributos se colocan en la etiqueta de apertura:
 
-        &lt;img src="imagen.jpg" alt="Descripción"&gt;
+    &lt;img src="imagen.jpg" alt="Descripción"&gt;
 
 
 4. COMENTARIOS
@@ -303,33 +303,33 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     Sintaxis:
 
-        &lt;!-- comentario --&gt;
+    &lt;!-- comentario --&gt;
 
     Ejemplo de uso:
 
-        &lt;!DOCTYPE html&gt;
+    &lt;!DOCTYPE html&gt;
 
-        &lt;html&gt;
+    &lt;html&gt;
 
-            &lt;head&gt;
+     &lt;head&gt;
 
-                &lt;title&gt;Título&lt;/title&gt;
+      &lt;title&gt;Título&lt;/title&gt;
 
-            &lt;/head&gt;
+      &lt;/head&gt;
 
-            &lt;body&gt;
+      &lt;body&gt;
 
-                &lt;!-- Cabecera --&gt;
+       &lt;!-- Cabecera --&gt;
 
-                &lt;!-- Menú de navegación --&gt;
+       &lt;!-- Menú de navegación --&gt;
 
-                &lt;!-- Contenido principal --&gt;
+       &lt;!-- Contenido principal --&gt;
 
-                &lt;!-- Pie de página --&gt;
+       &lt;!-- Pie de página --&gt;
 
-            &lt;/body&gt;
+       &lt;/body&gt;
 
-        &lt;/html&gt;
+     &lt;/html&gt;
 
 
 5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
@@ -355,29 +355,29 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     · Encabezados:
 
-        &lt;h1&gt; a &lt;h6&gt; - Títulos y subtítulos (bloque).
+    &lt;h1&gt; a &lt;h6&gt; - Títulos y subtítulos (bloque).
 
     · Párrafos:
 
-        &lt;p&gt; - Agrupa frases relacionadas (bloque).
+    &lt;p&gt; - Agrupa frases relacionadas (bloque).
 
     · Saltos de línea:
 
-        &lt;br&gt; - Inserta un salto de línea.
+    &lt;br&gt; - Inserta un salto de línea.
 
     · Separadores:
 
-        &lt;hr&gt; - Crea una línea horizontal divisoria.
+    &lt;hr&gt; - Crea una línea horizontal divisoria.
 
     · Énfasis:
 
-        &lt;em&gt; - Texto en cursiva.
+    &lt;em&gt; - Texto en cursiva.
 
-        &lt;strong&gt; - Texto en negrita.
+    &lt;strong&gt; - Texto en negrita.
 
     · Span:
 
-        &lt;span&gt; - Contenedor en línea para aplicar estilos dentro de un texto.
+    &lt;span&gt; - Contenedor en línea para aplicar estilos dentro de un texto.
 
 
 7. RUTAS EN HTML
@@ -388,7 +388,7 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         Ejemplo:
 
-            &lt;img src="https://www.example.com/imagen.jpg" alt="Ejemplo"&gt;
+    &lt;img src="https://www.example.com/imagen.jpg" alt="Ejemplo"&gt;
 
     · Ruta relativa:
 
@@ -396,7 +396,7 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         Ejemplo:
 
-            &lt;img src="images/logo.png" alt="Logo del sitio"&gt;
+    &lt;img src="images/logo.png" alt="Logo del sitio"&gt;
 
 
 8. ENLACES (&lt;a&gt;)
@@ -405,7 +405,7 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
         Ejemplo:
 
-            &lt;a href="https://www.ejemplo.com"&gt;Ir al sitio&lt;/a&gt;
+    &lt;a href="https://www.ejemplo.com"&gt;Ir al sitio&lt;/a&gt;
 
     · Enlaces externos:
 
@@ -428,21 +428,21 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     · Tipos de controles:
 
-        - &lt;input type="text"&gt; - campo de texto.
+    - &lt;input type="text"&gt; - campo de texto.
 
-        - &lt;input type="password"&gt; - contraseña.
+    - &lt;input type="password"&gt; - contraseña.
 
-        - &lt;input type="radio"&gt; - botón de opción.
+    - &lt;input type="radio"&gt; - botón de opción.
 
-        - &lt;input type="checkbox"&gt; - casilla de verificación.
+    - &lt;input type="checkbox"&gt; - casilla de verificación.
 
-        - &lt;button&gt; - botón de envío.
+    - &lt;button&gt; - botón de envío.
 
-        - &lt;select&gt; - lista desplegable.
+    - &lt;select&gt; - lista desplegable.
 
-        - &lt;textarea&gt; - área de texto.
+    - &lt;textarea&gt; - área de texto.
 
-        - &lt;input type="file"&gt; - subida de archivos.
+    - &lt;input type="file"&gt; - subida de archivos.
 
     · Cada control debe tener un atributo name para identificar el dato enviado.
 
@@ -463,20 +463,20 @@ Dentro del &lt;head&gt; pueden incluirse etiquetas importantes como:
 
     · Ejemplo completo:
 
-        &lt;form action="process.php" method="post" enctype="multipart/form-data"&gt;
+    &lt;form action="process.php" method="post" enctype="multipart/form-data"&gt;
 
-            &lt;label for="name"&gt;Nombre:&lt;/label&gt;
+     &lt;label for="name"&gt;Nombre:&lt;/label&gt;
 
-            &lt;input type="text" id="name" name="name"&gt;
+     &lt;input type="text" id="name" name="name"&gt;
 
-            &lt;label for="email"&gt;Correo electrónico:&lt;/label&gt;
+     &lt;label for="email"&gt;Correo electrónico:&lt;/label&gt;
 
-            &lt;input type="email" id="email" name="email"&gt;
+     &lt;input type="email" id="email" name="email"&gt;
 
-            &lt;label for="file"&gt;Subir archivo:&lt;/label&gt;
+     &lt;label for="file"&gt;Subir archivo:&lt;/label&gt;
 
-            &lt;input type="file" id="file" name="file"&gt;
+     &lt;input type="file" id="file" name="file"&gt;
 
-            &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+     &lt;button type="submit"&gt;Enviar&lt;/button&gt;
 
-        &lt;/form&gt;
+    &lt;/form&gt;
