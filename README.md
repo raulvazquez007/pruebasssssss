@@ -203,6 +203,221 @@ Este elemento posee atributos, pero no tiene etiqueta de cierre (&lt;/img&gt;) n
 
 &lt;/html&gt;
 
+RESUMEN GENERAL DE HTML
+
+
+1. ESTRUCTURA BÁSICA DE UN FICHERO HTML
+
+    Un documento HTML define la estructura básica de una página web. 
+Contiene dos secciones principales:
+
+    &lt;head&gt;: incluye metadatos, información adicional y enlaces a archivos externos 
+      (como CSS o scripts).
+    - &lt;body&gt;: contiene todo el contenido visible de la página (texto, imágenes, enlaces, etc.).
+
+Ejemplo básico:
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Mi página web</title>
+        </head>
+        <body>
+            <h1>Título principal</h1>
+            <p>Este es un párrafo.</p>
+        </body>
+    </html>
+
+Dentro del <head> pueden incluirse etiquetas importantes como:
+
+    <meta name="viewport" content="width=device-width"> 
+        → Permite que el sitio sea adaptable a diferentes dispositivos.
+    
+    <meta name="description" content="Descripción del sitio"> 
+        → Utilizada por los motores de búsqueda.
+    
+    <meta name="robots" content="index, follow"> 
+        → Indica a los buscadores si deben indexar la página.
+
+
+2. ELEMENTOS DE BLOQUE Y DE LÍNEA
+----------------------------------
+
+    Los elementos HTML dentro del <body> se dividen en dos tipos:
+
+    ▪ Elementos de bloque:
+        - Ocupan todo el ancho disponible y comienzan en una nueva línea.
+        - Ejemplos:
+            <h1> a <h6>, <p>, <div>, <blockquote>, <pre>, <ul>, <table>.
+        - Se usan para estructurar secciones grandes del contenido.
+
+    ▪ Elementos de línea:
+        - Solo ocupan el espacio necesario y no crean una nueva línea.
+        - Ejemplos:
+            <em>, <strong>, <span>, <a>, <img>, <code>, <q>.
+        - Se usan para resaltar o enlazar partes del texto.
+
+
+3. NORMAS BÁSICAS DE LAS ETIQUETAS HTML
+----------------------------------------
+
+    ▪ Las etiquetas vienen en pares:
+        <p>Texto</p>
+
+    ▪ Algunas etiquetas son vacías (no tienen cierre):
+        <img>, <br>, <input>
+
+    ▪ Deben anidarse correctamente:
+        <b><i>Texto</i></b> es correcto.
+        <b><i>Texto</b></i> es incorrecto.
+
+    ▪ Los atributos se colocan en la etiqueta de apertura:
+        <img src="imagen.jpg" alt="Descripción">
+
+    ▪ Recomendación:
+        Escribir siempre las etiquetas y atributos en minúsculas.
+
+
+4. COMENTARIOS
+--------------
+
+    Los comentarios permiten añadir anotaciones que no se muestran en el navegador.
+
+    Sintaxis:
+        <!-- comentario -->
+
+    Ejemplo de uso:
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>Título</title>
+            </head>
+            <body>
+                <!-- Cabecera -->
+                <!-- Menú de navegación -->
+                <!-- Contenido principal -->
+                <!-- Pie de página -->
+            </body>
+        </html>
+
+
+5. LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
+------------------------------------------
+
+    Es fundamental que el código sea claro y legible para otros desarrolladores.
+
+    ▪ Recomendaciones:
+        - Usar comentarios claros.
+        - Mantener sangrías correctas.
+        - Organizar los archivos por carpetas (css, images, js).
+        - Evitar líneas demasiado largas.
+
+    ▪ Motivo:
+        Facilita la colaboración y el mantenimiento del proyecto.
+
+
+6. ETIQUETAS BÁSICAS DE HTML
+------------------------------
+
+    ▪ Encabezados:
+        <h1> a <h6> → Títulos y subtítulos (bloque).
+
+    ▪ Párrafos:
+        <p> → Agrupa frases relacionadas (bloque).
+
+    ▪ Saltos de línea:
+        <br> → Inserta un salto de línea.
+
+    ▪ Separadores:
+        <hr> → Crea una línea horizontal divisoria.
+
+    ▪ Énfasis:
+        <em> → Texto en cursiva.
+        <strong> → Texto en negrita.
+
+    ▪ Span:
+        <span> → Contenedor en línea para aplicar estilos dentro de un texto.
+
+
+7. RUTAS EN HTML
+-----------------
+
+    ▪ Ruta absoluta:
+        Especifica la dirección completa del archivo en la web.
+        Ejemplo:
+            <img src="https://www.example.com/imagen.jpg" alt="Ejemplo">
+
+    ▪ Ruta relativa:
+        Especifica la ubicación del archivo respecto al documento actual.
+        Ejemplo:
+            <img src="images/logo.png" alt="Logo del sitio">
+
+
+8. ENLACES (<a>)
+-----------------
+
+    ▪ Permiten navegar entre documentos mediante el atributo href.
+        Ejemplo:
+            <a href="https://www.ejemplo.com">Ir al sitio</a>
+
+    ▪ Enlaces externos:
+        Conectan con páginas fuera del sitio.
+
+    ▪ Enlaces locales:
+        Conectan con documentos del mismo sitio (usando rutas relativas).
+
+    ▪ Atributos comunes:
+        - href: destino del enlace.
+        - title: texto informativo al pasar el cursor.
+
+
+9. FORMULARIOS
+---------------
+
+    ▪ Sirven para interactuar con el usuario y enviar información al servidor.
+
+    ▪ Tipos de controles:
+        - <input type="text"> → campo de texto.
+        - <input type="password"> → contraseña.
+        - <input type="radio"> → botón de opción.
+        - <input type="checkbox"> → casilla de verificación.
+        - <button> → botón de envío.
+        - <select> → lista desplegable.
+        - <textarea> → área de texto.
+        - <input type="file"> → subida de archivos.
+
+    ▪ Cada control debe tener un atributo name para identificar el dato enviado.
+
+
+10. ETIQUETA <form>
+--------------------
+
+    ▪ Se utiliza para crear formularios.
+
+    ▪ Atributos principales:
+        - action: URL a la que se enviarán los datos.
+        - method: método de envío (GET o POST).
+        - enctype: cómo se codifican los datos.
+        - target: dónde se mostrará la respuesta (_self o _blank).
+
+    ▪ Ejemplo completo:
+
+        <form action="process.php" method="post" enctype="multipart/form-data">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="file">Subir archivo:</label>
+            <input type="file" id="file" name="file">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+
 
 __*ABRIR ETIQUTA 1*__
     ABRIR ETIQUETA 2 
